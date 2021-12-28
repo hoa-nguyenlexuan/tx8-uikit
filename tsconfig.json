@@ -13,7 +13,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": false,
-    "jsx": "react"
+    "jsx": "react",
+    "declaration": true /* Generates corresponding <.d.ts< file. */,
+    "outDir": "./lib" /* Redirect output structure to the directory. */
   },
   "include": ["src"],
   "exclude": ["node_modules", "src/**/*.stories.tsx", "src/__tests__/**/*"]
